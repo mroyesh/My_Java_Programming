@@ -5,30 +5,29 @@ import java.util.Arrays;
 public class ArraysPractice2 {
     public static void main(String[] args) {
         int[] arr1 = new int[100];
-        System.out.println("Arrays.toString(arr1) = " + Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr1));
         for (int i = 0, j = 1; i < arr1.length; i++, j++) {
             arr1[i] = j;
         }
-        System.out.println(Arrays.toString(arr1));
+        System.out.println("The result is : " + Arrays.toString(arr1));
 
-        int []num=new int[30];
-        for (int i = 0; i < num.length; i++) {
-            num[i]=i+1;
+        int[] num = new int[30];
+        for (int i = 0, j = 30; i < num.length; i++, j--) {
+            num[i] = j;
         }
+
         System.out.println(Arrays.toString(num));
 
         System.out.println("--------------------------");
 
-        int[]num1= new int[20];
+        int[] num1 = new int[20];
 
 
-        for (int l = num1.length - 1,m=1; l >= 0; l--,m++) {
-            num1[l]=m;
+        for (int l = num1.length - 1, m = 1; l >= 0; l--, m++) {
+            num1[l] = m;
         }
-        System.out.println("Arrays.toString(num) = " + Arrays.toString(num1));
-        }
-
-
+        System.out.println(" Array if num1 = " + Arrays.toString(num1));
+    }
         /*for (int i = 0; i < arr1.length; i++) {
             arr1[i] = i += 1;
             System.out.println(Arrays.toString(arr1));
@@ -45,14 +44,4 @@ public class ArraysPractice2 {
                 arr3[i1]=100-1;
 
                 }*/
-
-
-        }
-
-
-
-
-
-
-
-
+}

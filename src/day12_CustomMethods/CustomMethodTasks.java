@@ -12,7 +12,7 @@ public class CustomMethodTasks {
 
         MaxAndMinNum(12, 3000);
 
-        inatial("Yasin","Esmat");
+        inatial("Yasin","Esmati");
 
 
     }
@@ -28,7 +28,7 @@ public class CustomMethodTasks {
 
     }
     public static void inatial(String fName, String lName){
-        System.out.println("initial is "+ fName.substring(0,1)+ "."+ lName.substring(0,1));
+        System.out.println("initial is "+ fName.substring(0,1).toUpperCase()+ "."+ lName.substring(0,1).toUpperCase());
 
 
     }

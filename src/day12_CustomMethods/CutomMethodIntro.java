@@ -8,7 +8,6 @@ public class CutomMethodIntro {
 
         greetings();
 
-
         System.out.println("Test completed");
 
         System.out.println("_____------------__________------");

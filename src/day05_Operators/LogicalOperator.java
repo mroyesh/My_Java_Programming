@@ -4,8 +4,8 @@ public class LogicalOperator {
     public static void main(String[] args) {
         int age = 23;
         int salary= 80000;
-        int cridetScore=700;
-        boolean eligibleForLoan= age>=21 && salary>78000&& cridetScore>750;
+        int creditScore=700;
+        boolean eligibleForLoan= age>=21 && salary>78000&& creditScore>750;
         System.out.println(eligibleForLoan);
 
 

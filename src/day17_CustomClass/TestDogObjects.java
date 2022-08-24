@@ -9,12 +9,16 @@ public class TestDogObjects {
         dog1.age=4;
         dog1.color="white";
 
+        //System.out.println(dog1.age);
+
         //dog1.eat();
        // System.out.println(dog1);
 
+        dog1.run();
+
         Dog dog2= new Dog();
         dog2.name="Lucy";
-        dog2.breed= " German Shepeared";
+        dog2.breed= " GermanShepherd";
         dog2.gender='F';
         dog1.age= 4;
         dog2.color="Gray";

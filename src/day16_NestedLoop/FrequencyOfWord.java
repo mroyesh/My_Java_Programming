@@ -9,7 +9,7 @@ public class FrequencyOfWord {
         int count = 0;
         while (str.contains(word)) {
             count++;
-            str = str.replaceFirst(word,"");// every java word will be removed and added to count one number
+           str = str.replaceFirst(word,"");// every java word will be removed and added to count one number
         }
         System.out.println(count);
     }

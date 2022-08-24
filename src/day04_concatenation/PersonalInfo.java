@@ -6,8 +6,8 @@ public class PersonalInfo {
         String FName = "Yasin",
                 LName = "Tawasulli",
                 from = "Afghanistan",
-                favorite_music = " roch",
-                favorite_Book = "Paulo Koelo",
+                favorite_music = " rack",
+                favorite_Book = "Paulo Kolo",
                 favorite_TVShow = "The Walking Dead",
                 favorite_Color = "Blue";
         char gender = 'M';
@@ -19,9 +19,12 @@ public class PersonalInfo {
         System.out.println("from = " + from);
         System.out.println("favorite_music = " + favorite_music);
         System.out.println("favorite_Book = " + favorite_Book);
+        System.out.println("favorite_Color = " + favorite_Color);
         System.out.println("favorite_TVShow = " + favorite_TVShow);
         System.out.println("isMarried = " + isMarried);
         System.out.println("age = " + age);
+        System.out.println(is_Employed);
+        System.out.println(gender);
 
 
 

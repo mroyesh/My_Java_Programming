@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class DaysOfMonth {
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
-        System.out.println("Please enter the number of the month");
+        System.out.println("Please enter the number of  month");
         int numberOfMonth = input.nextInt();
         String month="";
         switch (numberOfMonth){
             case 1:
-                month ="jan";
+                month ="Jan";
                 break;
             case 2:
-                month ="feb";
+                month ="Feb";
                 break;
             case 3:
-                month = "march";
+                month = "Mar";
                 break;
             case 4:
                 month = "April";
@@ -42,9 +42,11 @@ public class DaysOfMonth {
             case 11:
                 month ="Nov";
                 break;
-            default:
+            case 12:
                 month= "Dec";
                 break;
+            default:
+                month= "Invalid Month";
         }
         System.out.println(month);
     }

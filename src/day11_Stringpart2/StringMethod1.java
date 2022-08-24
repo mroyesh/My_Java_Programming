@@ -4,9 +4,9 @@ import java.util.Locale;
 
 public class StringMethod1 {
     public static void main(String[] args) {
-        String str1= " I love java";
-        str1=str1.toUpperCase();
-        System.out.println(str1);
+        String str= " I love java";
+        str=str.toUpperCase();
+        System.out.println(str);
 
         /*System.out.println("------------");
         String str2= "happy new year";

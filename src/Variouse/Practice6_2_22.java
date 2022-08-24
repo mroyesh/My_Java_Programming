@@ -1,35 +1,48 @@
 package Variouse;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Practice6_2_22 {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("enter the word");
-        String word= input.nextLine();
-        System.out.println("Enter the sentence");
-        String sentence= input.nextLine();
-        boolean result= sentence.contains(word);
-        System.out.println(result);
-
-        System.out.println("----------------------");
-        System.out.println("enter the string");
-        String str= input.nextLine().toLowerCase();
-        int result1=0;
-        while( str.contains("hi")){
-            str= str.replaceFirst("hi","");
-            result1++;
+        String []arr= {"a", "foo", "bar", "foo", "bla"};
+        int countApperance=0;
+        for (String word : arr) {
+            if(word.equals("foo")){
+                countApperance++;
+            }
         }
-        System.out.println(result1);
+        Scanner scan = new Scanner(System.in);
+        String word = scan.nextLine();
 
-
-
+        //WRITE YOUR CODE HERE
+        if(word.equals("dumb")){
+           word= word.replace("dumb", "cool");
+            System.out.println(word);
 
     }
+}
 
 
-    }
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

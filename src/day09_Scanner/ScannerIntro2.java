@@ -12,11 +12,11 @@ public class ScannerIntro2 {
         double num2 = input.nextDouble();
 
         System.out.println("Enter yur true of false");
-        boolean bo = input.nextBoolean();
+        boolean bolean = input.nextBoolean();
 
         System.out.println("num1=" +num1);
         System.out.println("num2= "+num2);
-        System.out.println("bo "+bo);
+        System.out.println("bo "+bolean);
 
     }
 }

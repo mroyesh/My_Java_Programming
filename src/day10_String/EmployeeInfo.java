@@ -11,7 +11,7 @@ public class EmployeeInfo {
         int employeeAge= input.nextInt();
         input.nextLine();
         System.out.println("Enter your gender");
-        String employeesGender= input.nextLine();
+        char employeesGender= input.next().charAt(0);
         System.out.println("Enter your company");
         String CompanyName= input.nextLine();
         System.out.println("Enter your job title");

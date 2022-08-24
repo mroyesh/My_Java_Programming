@@ -3,16 +3,15 @@ package day09_Scanner;
 public class CrewAndPassenger {
     public static void main(String[] args) {
 
-        int numOfPeople= 50;
-        String result= (numOfPeople==50||numOfPeople==75||numOfPeople==100)?
-                (numOfPeople==50)?"20 crew and 30 passenger": (numOfPeople==75)?
-                        " 25 crew and 50 passenger":"30 crew and 70 passenger"
-                :"Invalid ";
+        int numOfPeople = 50;
+        String result = (numOfPeople == 50 || numOfPeople == 75 || numOfPeople == 100) ?
+                (numOfPeople == 50) ? "20 crew and 30 passenger" : (numOfPeople == 75) ?
+                        " 25 crew and 50 passenger" : "30 crew and 70 passenger"
+                : "Invalid ";
         System.out.println(result);
 
-        int pasAndCrew=90;
-         String result1="";
-        switch (numOfPeople){
+        int pasAndCrew = 90;
+        switch (pasAndCrew) {
             case 50:
                 System.out.println("20 crew and 30 pass");
                 break;

@@ -2,46 +2,45 @@ package day18_garbageCollection;
 public class Pizza {
 
     public char size;
-    public int numberOfCheeseTopping, numberOfPepperoniTopping;
+    public int numberOfCheese, numberOfPepperoni;
 
-    public double calcCost() {   /// calculate total cost of pizza and return it as double
-        double totalPrice = 0;
-        switch (size) {
-            case 'S':
-            case 's':
-                totalPrice = 10 + 2 * (numberOfCheeseTopping + numberOfPepperoniTopping);
-                break;
-            case 'M':
-            case 'm':
-                totalPrice = 12 + 2 * (numberOfPepperoniTopping + numberOfCheeseTopping);
-                break;
-            case 'L':
-            case 'l':
-                totalPrice = 14 + 2 * (numberOfPepperoniTopping + numberOfCheeseTopping);
-                break;
-            default:
-                System.err.println("invalid size:" + size);
-                break;
-        }
-        return totalPrice;
+
+    public void setInfo(char size, int numberOfCheese, int numberOfPepperoni) {
+        this.size = size;
+        this.numberOfCheese = numberOfCheese;
+        this.numberOfPepperoni = numberOfPepperoni;
     }
 
     public String toString() {
         return "Pizza{" +
                 "size=" + size +
-                ", numberOfCheeseTopping=" + numberOfCheeseTopping +
-                ", numberOfPepperoniTopping=" + numberOfPepperoniTopping +
-                ", Total price=" + calcCost() +
+                ", numberOfCheese=" + numberOfCheese +
+                ", numberOfPepperoni=" + numberOfPepperoni +
                 '}';
     }
 
-    public void setInfo(char size, int numberOfCheeseTopping, int numberOfPepperoniTopping){
-        this.size= size;
-        this.numberOfCheeseTopping= numberOfCheeseTopping;
-        this.numberOfPepperoniTopping=numberOfPepperoniTopping;
-
+    public double calcCost() {
+        double totalCost=0;
+        switch (size) {
+            case 's':
+            case 'S':
+                totalCost = 10 + 2 * (numberOfCheese + numberOfPepperoni);
+                break;
+            case 'm':
+            case 'M':
+                totalCost = 12 + 2 * (numberOfPepperoni + numberOfCheese);
+                break;
+            case 'l':
+            case 'L':
+                totalCost = 14 + 2 * (numberOfCheese + numberOfPepperoni);
+                break;
+            default:
+                System.err.println("Invalid size" + size);
+        }
+        return totalCost;
     }
 }
+
 
 
 

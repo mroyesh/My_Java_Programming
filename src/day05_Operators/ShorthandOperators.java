@@ -2,13 +2,13 @@ package day05_Operators;
 
 public class ShorthandOperators {
     public static void main(String[] args) {
-      int salary = 12000;
-      double bonus = 0.12 * salary;
-      double transportation = 900;
-      salary += 1000;
+        int salary = 12000;
+        double bonus = 0.12 * salary;
+        double transportation = 900;
+        salary += 1000;
         System.out.println(salary);
         int distance = 1200;
-        int roundTrip=  distance *=2;
+        int roundTrip = distance *= 2;
         System.out.println(roundTrip);
         int x = 12, y = 10;
         x += y;
@@ -16,7 +16,7 @@ public class ShorthandOperators {
         x -= y;
         System.out.println(x);
         int c = 13, d = 2;
-        c %=d;
+        c %= d;
         System.out.println(c);
 
         double e = 12, f = 7;
@@ -59,7 +59,6 @@ public class ShorthandOperators {
 
        /* int a = 35;
         a %= 7; // it divides 35 to 7 first and gives us the reminder*/
-
 
 
     }

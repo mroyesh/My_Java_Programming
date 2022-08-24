@@ -19,6 +19,8 @@ public class frequencyOfCharractors {
                 continue;
             }
             result+=ch + "" + count;
+            //result+=ch;
+            //result+=count;
         }
         System.out.println(result);
         }

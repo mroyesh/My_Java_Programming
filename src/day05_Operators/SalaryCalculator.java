@@ -2,18 +2,18 @@ package day05_Operators;
 
 public class SalaryCalculator {
     public static void main(String[] args) {
-        int Hourlyrate = 40, Wklyrate = 45;
-        double stateTaxRate = 4.6, fdralTxrate = 7.9;
-        double salaryBforeTax = Hourlyrate * 45 * 52;
-        double stattax = salaryBforeTax *stateTaxRate/100;
-        double fdratax = salaryBforeTax*fdralTxrate/100;
-        double totaltx = fdratax+stattax;
-        double salaryaftertaxx = salaryBforeTax - totaltx;
-        System.out.println("salaryBforeTax = " + salaryBforeTax);
-        System.out.println("stattax = " + stattax);
-        System.out.println("fdratax = " + fdratax);
-        System.out.println("totaltx = " + totaltx);
-        System.out.println("salaryaftertaxx = " + salaryaftertaxx);
+        int HourlyRate = 40, WklyRate = 45;
+        double stateTaxRate = 4.6, federalTaxRate = 7.9;
+        double salaryBeforeTax = HourlyRate * WklyRate * 52;
+        double statTax = salaryBeforeTax *stateTaxRate/100;
+        double fdratax = salaryBeforeTax*federalTaxRate/100;
+        double totaltx = fdratax+statTax;
+        double salaryaftertaxx = salaryBeforeTax - totaltx;
+        System.out.println("salaryBforeTax = " + salaryBeforeTax);
+        System.out.println("stat tax = " + statTax);
+        System.out.println("federal tax = " + fdratax);
+        System.out.println("total tax = " + totaltx);
+        System.out.println("salary after tax = " + salaryaftertaxx);
 
         /*int hourlyRate= 55,weeklyHours = 45;
         double stateTaxRate= 7.5, federalTaxRate =24.5;
@@ -30,7 +30,7 @@ public class SalaryCalculator {
         System.out.println("Gross pay is: $ "+ salaryBeforeTax +
                 "\nFederal tax is: $" + federalTax +
                 "\nState tax is: $" + stateTax +
-                "\ntotal tax is: $" +totalTax+
+                "\n total tax is: $" +totalTax+
                 "\nNet income is: $" + salaryAfterTax);*/
 
 

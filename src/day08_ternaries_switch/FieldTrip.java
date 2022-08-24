@@ -1,7 +1,8 @@
 package day08_ternaries_switch;
+
 public class FieldTrip {
     public static void main(String[] args) {
-        int grade = 4;
+        int grade = 0;
         String location = "";
         int numOfGroup = 0;
         String teacher = "";
@@ -24,7 +25,7 @@ public class FieldTrip {
                 numOfGroup = 2;
                 teacher = "Reyes";
             } else if ( grade == 5 ) {
-                location = "musium";
+                location = "museum";
                 numOfGroup = 5;
                 teacher = "lala";
             } else {
@@ -33,7 +34,7 @@ public class FieldTrip {
                 teacher = "watt";
             }
         } else {
-            location = " unknown";
+            location = " Unknown";
             numOfGroup = 0;
             teacher = "Invalid location";
         }

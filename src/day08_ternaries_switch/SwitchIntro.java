@@ -3,7 +3,6 @@ package day08_ternaries_switch;
 public class SwitchIntro {
     public static void main(String[] args) {
         char grade = 'P';
-
         /*
         A: excellent
         B: Great job
@@ -30,8 +29,11 @@ public class SwitchIntro {
             default:
                 System.out.println("Invalid ");
         }
-        int rooms=9;
-        switch (rooms){
+
+
+
+        int room=9;
+        switch (room){
             case 1:
                 System.out.println("Small");
                 break;

@@ -10,7 +10,7 @@ public class NestedIfStatement {
                 System.out.println("failed");
               }
              }else{
-            System.out.println(" Not valid score");
+            System.out.println("Not a valid score");
         }
     }
 }

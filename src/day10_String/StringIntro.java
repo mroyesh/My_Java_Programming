@@ -10,11 +10,16 @@ public class StringIntro {
         String s2= "dog";
         String str3= new String("Happy");
 
+        System.out.println(str);
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(str3);
+
         String s3= "cat";
         String s4= "cat";
 
         System.out.println(s1 ==s3);
-        System.out.println(s1=s4);
+        System.out.println(s1==s4);
         System.out.println("---------------");
         String str1= new String("java"); // any String literal will be created if they are same they take one in the string pool
 

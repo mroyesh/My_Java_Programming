@@ -23,5 +23,11 @@ public class VariableNamingRoles {
         double finalScore = 89.7;
         // gender is male
         String gender = "male";
+
+        System.out.println(number1);
+        System.out.println(number2);
+        System.out.println(number3);
+        System.out.println(finalScore);
+        System.out.println(gender);
     }
 }

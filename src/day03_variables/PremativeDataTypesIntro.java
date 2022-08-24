@@ -9,7 +9,7 @@ public class PremativeDataTypesIntro {
     byte a = 20;
 
     // price of the car is $17500
-    short p = 17500;
+    short sh = 17500;
 
     //salary is $90000
     int s = 95000;

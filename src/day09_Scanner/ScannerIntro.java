@@ -23,6 +23,8 @@ public class ScannerIntro {
         System.out.println("your first number is: "+num);
         System.out.println("your second number is: "+num1);
         System.out.println("Your third number is: "+num2);
+        System.out.println("num3 = " + num3);
+        System.out.println("num4 = " + num4);
 
 
     }

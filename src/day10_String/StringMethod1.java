@@ -8,29 +8,29 @@ public class StringMethod1 {
         System.out.println(ind);
 
 
-       /*String str = "Cydeo";
-       char firstChar= str.charAt(0);
-       char secondChar = str.charAt(1);
-       char thirdChar = str.charAt(2);
+       String str1 = "Cydeo";
+       char firstChar= str1.charAt(0);
+       char secondChar = str1.charAt(1);
+       char thirdChar = str1.charAt(2);
         System.out.println(firstChar);
         System.out.println(secondChar);
         System.out.println(thirdChar);
-        int length = str.length();
+        int length = str1.length();
         System.out.println(length);
         int lastIndex = length-1;
-        System.out.println("Last index:= " +lastIndex);*/
+        System.out.println("Last index:= " +lastIndex);
 
-        /*String str1= new String("happy new year");
-        char fChar= str1.charAt(0);
+        String str2= new String("happy new year");
+        char fChar= str2.charAt(0);
         System.out.println(fChar);
-        int lenght = str1.length();
-        System.out.println(lenght);
-        int lastInd =lenght-1;
+        int length1 = str2.length();
+        System.out.println(length1);
+        int lastInd =length-1;
         System.out.println(lastInd);
-        char l= str1.charAt(lastInd);
+        char l= str2.charAt(lastInd);
         System.out.println(fChar + ":" + l);
-        int indexoff= str1.indexOf("year");
-        System.out.println(indexoff);
+        int indexOff= str2.indexOf("year");
+        System.out.println(indexOff);
 
         String name1 = "Alidad";
         String name2 = new String("Alidad");
@@ -41,32 +41,22 @@ public class StringMethod1 {
         String s4 = "java";
         System.out.println(s2.equals(s3));
 
-
-
-
-        String str = "Cydeo";
+        String str3 = "Cydeo";
         // index:    0123456789
-        char firstChar = str.charAt(0);
-        char secondChar = str.charAt(1);
-        char thirdChar = str.charAt(2);
-        System.out.println("FirstChar= : "+firstChar);
-        System.out.println("secondChar = " + secondChar);
-
+        char firstChar1 = str.charAt(0);
+        char secondChar1 = str.charAt(1);
+        char thirdChar1 = str3.charAt(2);
+        System.out.println("FirstChar= : "+firstChar1);
+        System.out.println("secondChar = " + secondChar1);
+        System.out.println("thirdChar1 = " + thirdChar1);
 
         System.out.println("--------------------");
 
         String sentences = "java programming language";
-        int length = sentences.length();
-        System.out.println(length);
-        int lastIndex =length -1;
-        System.out.println(lastIndex);
-
-
+        int length2 = sentences.length();
+        System.out.println(length2);
+        int lastIndex1 =length-1;
+        System.out.println(lastIndex1);
         System.out.println("----------------");
-
-        String doublee ="Happy new year";
-        int firstChar2= */
-
-
     }
 }

@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class ArraysPractice1 {
     public static void main(String[] args) {
         String[]students= new String[5];
-        students[0]="Gulchen";
+        students[0]="Gulches";
         students[4]="Asil";
-        students[2]="Sumaya";
+        students[2]="Summa";
         students[students.length-2]="Ali";;
         students[1]="Hadi";
         System.out.println(Arrays.toString(students));
@@ -17,8 +17,10 @@ public class ArraysPractice1 {
 
         System.out.println("-----------------------------");
 
-        for (int i = students.length-1; i >=0; i--) {
-            System.out.println(students[i]);
+        for (int i = students.length - 1; i >= 0; i--) {
+            System.out.println(Arrays.toString(students ));
+
+        }
 
 
             System.out.println("--------------------------");
@@ -31,4 +33,4 @@ public class ArraysPractice1 {
 
             }
 
-}
+

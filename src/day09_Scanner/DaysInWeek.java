@@ -9,7 +9,7 @@ public class DaysInWeek {
         Scanner input = new Scanner(System.in);
         System.out.println("enter day number");
         int day = input.nextInt();
-        if ( day > 1 && day <= 7 ) {
+        if ( day >= 1 && day <= 7 ) {
             if ( day == 1 ) {
                 System.out.println("Monday");
             } else if ( day == 2 ) {
@@ -26,8 +26,10 @@ public class DaysInWeek {
                 System.out.println("Sun");
             }
         } else {
-            System.out.println("Invalid");
+            System.out.println("Invalid day");
         }
+
+
 
     }
 }

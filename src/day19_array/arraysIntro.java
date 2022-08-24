@@ -11,19 +11,20 @@ public class arraysIntro {
 
         //scores=new int[10];
         System.out.println( Arrays.toString(scores));
-        System.out.println(scores[2]);
+        //System.out.println(scores[2]);
 
         //for (int i = 0; i <5 ; i++) {
         for (int i = 0; i <scores.length ; i++) {
             System.out.println(scores[i]);
         }
-        System.out.println(scores[scores.length-1]);// this is the last index of Arrays.
 
+        System.out.println(scores[scores.length-1]);// this is the last index of Arrays.
+        System.out.println(scores.length);
+        System.out.println(scores.length-1);
+        System.out.println(scores[4]);
+        System.out.println(scores[0]);
 
         }
-
-
-
     }
 
 

@@ -2,6 +2,7 @@ package day03_variables;
 
 public class Rectangle {
     public static void main(String[] args) {
+
         int length = 8;
         int width = 12;
         int area = ( length * width);

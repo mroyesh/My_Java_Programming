@@ -2,16 +2,13 @@ package day06_IfStatement;
 
 public class singleIfStatementPractice {
     public static void main(String[] args) {
-        int a = 0;
-        boolean isEven = true;
+        int a = 4;
+        boolean isEven = a % 2==0;
         if ( isEven ) {
             System.out.println("Even number");
         }
         if ( !isEven ) {
-            System.out.println(" is Odd number");
-        }
-        if ( !isEven && !isEven ) {
-            System.out.println("Is zero");
+            System.out.println("Is Odd number");
         }
 
     }

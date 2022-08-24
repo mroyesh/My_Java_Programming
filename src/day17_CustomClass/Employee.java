@@ -10,11 +10,11 @@ public class Employee {
     public double salary;
     public String id;
 
-    public void setInfo(String name, int age, char gender, String jibTitle, double salary, String id) {
+    public void setInfo(String name, int age, char gender, String jobTitle, double salary, String id) {
         this.name = name;
         this.age = age;
         this.gender = gender;
-        this.jabTitle = jibTitle;
+        this.jabTitle = jobTitle;
         this.salary = salary;
         this.id = id;
     }

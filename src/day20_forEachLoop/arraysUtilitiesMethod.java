@@ -11,17 +11,20 @@ public class arraysUtilitiesMethod {
 
         int[] a1 = {1, 2, 3, 4, 5};
         int[] a2 = {1, 2, 3, 4, 5};
-        boolean r1 = Arrays.equals(a1, a2);
+        //boolean r1 = Arrays.equals(a1, a2);
 
-        System.out.println(r1);
+        System.out.println(Arrays.equals(a1, a2));
 
 
         System.out.println("-------------------");
 
-        char[] ch1 = {'A', 'B', 'c'};
+        char[] ch1 = {'A', 'B', 'C'};
         char[] ch2 = {'A', 'C', 'B'};
 
+        Arrays.sort(ch2);
+
         boolean result= Arrays.equals(ch1,ch2);
+        System.out.println(result);
 
 
         System.out.println("--------------------");
@@ -44,7 +47,7 @@ public class arraysUtilitiesMethod {
 
         System.out.println("---------------------");
 
-        String[] students = {"Ali, Aziz", "Reza", "Yasin", "Hada"};
+        String[] students = {"Ali, Aziz", "Reza", "Yasin", "Hadi"};
         System.out.println(Arrays.toString(students));
         Arrays.sort(students);
         System.out.println(Arrays.toString(students));
@@ -52,7 +55,7 @@ public class arraysUtilitiesMethod {
         System.out.println("-----------------");
 
         int[] score1 = {30, 40, 50, 60, 70};
-        int[] score2 = Arrays.copyOf(score1, 12);
+        int[] score2= Arrays.copyOf(score1, 6 );
         System.out.println(Arrays.toString(score2));
 
         System.out.println("------------------------");

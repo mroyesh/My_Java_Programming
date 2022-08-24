@@ -1,5 +1,7 @@
 package Utilities;
 
+import java.util.Arrays;
+
 public class ArraysUtility {
 
     public static int[] merge(int[] arr1, int[] arr2) {
@@ -64,17 +66,18 @@ public class ArraysUtility {
 
     public static double[] reverse(double[] array) {
         double[] reverse = new double[array.length];
-        int j=0;
+        int j = 0;
         for (int i = array.length - 1; i >= 0; i--) {
             reverse[j++] = array[i];
 
         }
         return reverse;
     }
+
     public static char[] reverse(char[] array) {
 
         char[] reverse = new char[array.length];
-        for (int i = array.length - 1,j=0; i >= 0; i--,j++) {
+        for (int i = array.length - 1, j = 0; i >= 0; i--, j++) {
             reverse[j] = array[i];
 
         }
@@ -88,6 +91,76 @@ public class ArraysUtility {
 
         }
         return reverse;
+
+
     }
-    
+
+    public static int[] addElement(int[] array, int element) {
+        int[] new_array = Arrays.copyOf(array, array.length + 1);
+        new_array[new_array.length - 1] = element;
+        return new_array;
+    }
+
+
+    public static double[] addElement(double[] array, double element) {
+        double[] new_array = Arrays.copyOf(array, array.length + 1);
+        new_array[new_array.length - 1] = element;
+        return new_array;
+    }
+
+
+    public static char[] addElement(char[] array, char element) {
+        char[] new_array = Arrays.copyOf(array, array.length + 1);
+        new_array[new_array.length - 1] = element;
+        return new_array;
+    }
+
+
+    public static String[] addElement(String[] array, String element) {
+        String[] new_array = Arrays.copyOf(array, array.length + 1);
+        new_array[new_array.length - 1] = element;
+        return new_array;
+    }
+
+    public static boolean contains(int[] array, int elements) {
+        for (int each : array) {
+            if ( each == elements ) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    public static boolean contains(double[] array, double elements) {
+        for (double each : array) {
+            if ( each == elements ) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    public static boolean contains(char[] array, char elements) {
+        for (char each : array) {
+            if ( each == elements ) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static boolean contains(String[] array, String elements) {
+        for (String each : array) {
+            if ( each.equals(elements )) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+
+
 }

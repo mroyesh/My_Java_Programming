@@ -2,7 +2,7 @@ package day11_Stringpart2;
 
 public class StringMethod2 {
     public static void main(String[] args) {
-        /*String sentence = " I love Python, I love Python, Python is the best programing language";
+        String sentence = " I love Python, I love Python, Python is the best programing language";
         sentence= sentence.replace("Python","java").toUpperCase();
         System.out.println(sentence);
 
@@ -16,11 +16,11 @@ public class StringMethod2 {
         //''''''''''''''''''''''''''''''''
 
         String sentence2 = " I love java, Java is cool";
-        sentence2= sentence2.replace("java", "Python");*/
+        sentence2= sentence2.replace("java", "Python");
 
 
-        //String sentence3 = "I love java, it is cool";
-        //String sentences = sentence3.substring(7, 9+1 );
+        String sentence3 = "I love java, it is cool";
+        //String sentences = sentences.substring(7, 9+1 );
 
 
         //String sentences4 = "Today is Sunday, Tomorrow is Monday";

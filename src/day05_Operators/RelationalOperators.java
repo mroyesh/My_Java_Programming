@@ -2,7 +2,7 @@ package day05_Operators;
 
 public class RelationalOperators {
     public static void main(String[] args) {
-       /* double salary = 60000;
+        double salary = 60000;
 
         int creditScore = 650;
         int age = 42;
@@ -14,10 +14,10 @@ public class RelationalOperators {
 
         System.out.println("-----------------------------------------------------");
 
-        int age = 23;
+        int age1 = 23;
         String country = "USA";
 
-        boolean eligibleToVote = age >= 18  && country == "USA";
+        boolean eligibleToVote = age1 >= 18  && country == "USA";
 
        //                          true    &&  false
 
@@ -25,18 +25,18 @@ public class RelationalOperators {
 
         System.out.println("-----------------------------------------------------");
 
-        String country = "Mexico";
-        boolean isANativeEnglishSpeaker = country == "UK" || country== " USA" || country == "Australia";
-        System.out.println(isANativeEnglishSpeaker);*/
+        String country1 = "Mexico";
+        boolean isANativeEnglishSpeaker = country1 == "UK" || country1== " USA" || country1 == "Australia";
+        System.out.println(isANativeEnglishSpeaker);
 
 
         int score = 65;
         boolean passed = score >=60;
         boolean failed = !passed;
         System.out.println(passed);
-        String country = "Afghanistan";
+        String country2 = "Afghanistan";
 
-        boolean nativeEnglishSpeaker =  country == "Canada" || country == "USA" || country == " UK" || country == "Australia";
+        boolean nativeEnglishSpeaker =  country2 == "Canada" || country2 == "USA" || country2 == " UK" || country2 == "Australia";
         //                                false             ||       false      ||   false          ||   true
 
         System.out.println("nativeEnglishSpeaker = " + nativeEnglishSpeaker);

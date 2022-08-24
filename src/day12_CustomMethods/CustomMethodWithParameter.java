@@ -7,6 +7,7 @@ public class CustomMethodWithParameter {
         OddOrEven(20001);
 
         OddOrEven(211);
+        ifEligibleToBuyAlcohol(34);
 
     }
         // the method takes an argument number ad varify if the numbe is odd or even
@@ -18,7 +19,7 @@ public class CustomMethodWithParameter {
         }
 
     }
-    public static void ifEligibleToByAlcohol(int number){
+    public static void ifEligibleToBuyAlcohol(int number){
         if(number >=0 &&number<=100){
             if(number>=21){
                 System.out.println("you are eligibeto buy alcohol");

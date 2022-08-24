@@ -24,6 +24,7 @@ public class EmployeeInfo {
         System.out.println(employeeId);
         System.out.println(jobTitle);
         System.out.println(isFullTime);
+        System.out.println("salary = " + salary);
 
         System.out.println("----------------------------------");
 

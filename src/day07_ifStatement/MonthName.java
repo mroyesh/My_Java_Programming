@@ -31,7 +31,7 @@ public class MonthName {
                 System.out.println("December");
             }
             } else {
-                System.out.println("invalid month");
+                System.out.println("Invalid month");
             }
         }
     }

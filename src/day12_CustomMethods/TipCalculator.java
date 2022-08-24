@@ -24,11 +24,11 @@ public class TipCalculator {
                 :(service.equals("good"))?amount*0.15
                 :(service.equals("fair"))?amount*0.1
                 :amount*0.05;
-        double tootalTopay=NumOfPeople*(amount+totalTips);
+        double totalToPay=NumOfPeople*(amount+totalTips);
         if(yesOrNo.equals("yes")){
-            System.out.println(tootalTopay / NumOfPeople);
+            System.out.println(totalToPay / NumOfPeople);
         }
-        System.out.println("total to pay:= $"+tootalTopay);
+        System.out.println("total to pay:= $"+totalToPay);
         System.out.println("number of people:= " +NumOfPeople);
 
 

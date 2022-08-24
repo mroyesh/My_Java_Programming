@@ -13,7 +13,7 @@ public class IfStatement {
         int creditScore = 729;
         String job = "full time";
         double salary = 98000;
-        if( creditScore >= 730 && salary >= 6000){
+        if( creditScore >= 730 && salary >= 60000){
             System.out.println(" is eligible for loan");
         }else{
             System.out.println(" is not eligible for loan");
