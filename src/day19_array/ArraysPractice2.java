@@ -20,6 +20,18 @@ public class ArraysPractice2 {
 
         System.out.println("--------------------------");
 
+        int [] array= new int[9];
+        for(int i=0, j=1; i<array.length; i++, j++){
+            array[i]=j;
+        }
+
+        System.out.println(Arrays.toString(array));
+
+
+
+
+
+
         int[] num1 = new int[20];
 
 
@@ -44,4 +56,5 @@ public class ArraysPractice2 {
                 arr3[i1]=100-1;
 
                 }*/
+
 }

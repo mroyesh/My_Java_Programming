@@ -4,6 +4,7 @@ public class ShorthandOperators {
     public static void main(String[] args) {
         int salary = 12000;
         double bonus = 0.12 * salary;
+        System.out.println(bonus);
         double transportation = 900;
         salary += 1000;
         System.out.println(salary);

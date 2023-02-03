@@ -6,9 +6,9 @@ public class IterablePractice1 {
     public static void main(String[] args) {
 
         ArrayList<Integer> list = new ArrayList<>();
-        list.addAll(Arrays.asList(10));
+        list.add(10);
 
-        Iterator<Integer> iterator = list.iterator();
+        Iterator <Integer> iterator = list.iterator();
 
         System.out.println( iterator.hasNext() );
         System.out.println(iterator.next());

@@ -14,7 +14,7 @@ public class Carpet {
 
     public double calcCost() {
 
-            double total = 200 + (width * length * unitPrice);
+            double total = (width * length * unitPrice);
             return isPersian ? total + 200 : total;
         }
     public String toString() {

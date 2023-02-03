@@ -5,7 +5,6 @@ public class MaxAndMinNumbers {
 
         int[] num={100,200, 120, 60,50,-200,-20,1000};
 
-
         int max= num[0];
         int min=num[0];
         for (int i = 0; i < num.length; i++) {

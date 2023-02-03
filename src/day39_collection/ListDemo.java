@@ -14,9 +14,13 @@ public class ListDemo {
         arrayList.add(400);
 
         arrayList.remove(0);
-        arrayList.get(0);
+
 
         System.out.println(arrayList);
+
+
+        System.out.println(arrayList.get(0));
+
 
 
         System.out.println("--------------------------------------");
@@ -31,7 +35,7 @@ public class ListDemo {
         System.out.println(linkedList);
 
         linkedList.remove(0);
-        linkedList.get(0);
+        System.out.println( linkedList.get(0));
         System.out.println(linkedList);
 
 
@@ -64,13 +68,13 @@ public class ListDemo {
 
         System.out.println("=========================================");
         int lastElement= stack.pop();
-        System.out.println(lastElement);
+        System.out.println("This is the last element "+lastElement);
 
         System.out.println("-----------------------------------------");
 
         System.out.println(stack);
         int secondLastElement= stack.pop();
-        System.out.println(secondLastElement);
+        System.out.println("This is last second element "+secondLastElement);
 
         System.out.println(stack);
 

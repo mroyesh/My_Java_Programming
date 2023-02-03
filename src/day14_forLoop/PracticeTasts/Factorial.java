@@ -1,7 +1,5 @@
 package day14_forLoop.PracticeTasts;
 
-import day09_Scanner.ScannerIntro;
-
 import java.util.Scanner;
 
 public class Factorial {

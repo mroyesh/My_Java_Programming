@@ -11,7 +11,7 @@ public class mapMethods {
         map.put("C02", "Josh");
         map.put("B03", "Nora");
         map.put("A02", "Khashayar");
-        map.put("D02", "Abidullah");
+        map.put("A01", "Yasin");
         map.put("A03", "Tatiana");
         map.put("A04", "Tatiana");
         map.put("A05", "Tatiana");

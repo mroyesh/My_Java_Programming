@@ -11,6 +11,5 @@ public class RelationOperations2 {
         System.out.println("muhtar" != " Good guy");
 
 
-
     }
 }

@@ -3,11 +3,11 @@ package day06_IfStatement;
 public class Cigarettes {
     public static void main(String[] args) {
 
-        int age= 17;
+        int age= 22;
         if(age > 21) {
             System.out.println(" you can buy cigarette");
         }
-        if( age <21 && age<100){
+        if( age <21 && age>100){
             System.err.println("Sorry, you are not eligible to buy cigarette");
         /*int age = 102;
         if(age >=21 && age <100){

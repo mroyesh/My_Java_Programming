@@ -1,6 +1,8 @@
 package day29_inheritance.AnimalTask;
 
 public class Dog extends Animal { // dog is an animal
+
+
     public void method(){
         System.out.println(getName());
         System.out.println(getBreed());
@@ -11,9 +13,7 @@ public class Dog extends Animal { // dog is an animal
     }
     public void bark(){
         System.out.println(getName()+" is barking");
-
     }
-
     public static void main(String[] args) {
 
 

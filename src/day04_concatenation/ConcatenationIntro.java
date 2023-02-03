@@ -3,7 +3,7 @@ package day04_concatenation;
 public class ConcatenationIntro {
     public static void main(String[] args) {
 
-        String name= new String("Khatema");
+        String name= new String("Kha");
         String names = "Nora";
         int age = 35;
         int salary = 90000;

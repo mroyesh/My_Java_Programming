@@ -7,6 +7,8 @@ public class HighestFrequency {
 
         int highestFrequency = 0;
 
+
+
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
             int count = 0;

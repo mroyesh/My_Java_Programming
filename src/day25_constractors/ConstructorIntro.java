@@ -15,8 +15,11 @@ public class ConstructorIntro {
 
     public static void main(String[] args) {
     ConstructorIntro obj1=new ConstructorIntro(12);
-    ConstructorIntro obj2= new ConstructorIntro();
+    ConstructorIntro obj2= new ConstructorIntro(123);
     ConstructorIntro obj3= new ConstructorIntro();
+        System.out.println(obj1);
+        System.out.println(obj2);
+        System.out.println(obj3);
     }
 
 

@@ -2,13 +2,13 @@ package day08_ternaries_switch;
 
 public class Tasks {
     public static void main(String[] args) {
-       /* int number= 15;
+        int number= 15;
         String result=(number==1)?"One":(number==2)?"Tow":(number==3)?"Three":
                 (number==4)?"Four":(number==5)?"Five":(number==6)?"Six":(number==7)?
                         "Seven":(number==8)?"Eight":(number==9)?"Nine":"Invalid Number";
         System.out.println(result);
     }
-}
+
 /*
 1. Create a class called NumberToWord,
 		write a java program that can convert numbers between 0 ~ 9 to words
@@ -102,12 +102,7 @@ public class Tasks {
     }
 
          */
-
-
-
-
-
     }
-}
+
 
 

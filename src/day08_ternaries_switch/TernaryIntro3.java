@@ -11,7 +11,6 @@ public class TernaryIntro3 {
             }else{
                 result = "failed";
             }
-
         } else {
             result = " Invalid";
         }

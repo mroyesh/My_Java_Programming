@@ -7,7 +7,6 @@ public class TestPizzaObject {
         pizza1.setInfo('s', 2, 4);
         //pizza1.size='M';
 
-
         Pizza pizza2= new Pizza();
         //pizza2.size='S'
         pizza2.setInfo('s',  2, 4);
@@ -26,6 +25,7 @@ public class TestPizzaObject {
             Pizza medium = new Pizza();
             medium.setInfo('m',4,3);
             total+=medium.calcCost();
+
              Pizza large = new Pizza();
              large.setInfo('l',3,5);
              total+=large.calcCost();

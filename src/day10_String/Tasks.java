@@ -5,6 +5,15 @@ import java.util.Scanner;
 public class Tasks {
     public static void main(String[] args) {
 
+        String website= "www.cydeo.com";
+        boolean isValid= website.startsWith("www") && website.endsWith(".com") || website.endsWith("edu")|| website.endsWith(".co");
+        if(isValid){
+            System.out.println("This is a valid website");
+        }else {
+            System.out.println("not valid");
+        }
+        System.out.println(isValid);
+
         /*String website = "www.cydeo.com";
         boolean isValid = (website.startsWith("www") && website.endsWith(".com") || website.endsWith(".edu") || website.endsWith(".gov"));
         if ( isValid ) {

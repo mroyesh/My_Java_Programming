@@ -6,11 +6,12 @@ public class Contact {
     public String phoneNumber;
     public String email;
 
-    public void setInfo(String name, String phoneNumber, String email) {
+    public Contact(String name, String phoneNumber, String email) {
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.email = email;
     }
+
     public void Call(){
         System.out.println("Calling from "+name+ " now");
     }

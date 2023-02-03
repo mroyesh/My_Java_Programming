@@ -19,7 +19,7 @@ public class TestPersonObject {
 
 
         for (Person eachStudent : studentList) {
-            System.out.println("Name of the student: "+eachStudent.name+ " Date of birth: "+eachStudent.dateOfBirth);
+            System.out.println("Name of the student: "+eachStudent.name+ " Date of birth: "+eachStudent.dateOfBirth+ "Age of the student: "+eachStudent.age);
 
         }
         studentList.removeIf(person -> person.age>30);

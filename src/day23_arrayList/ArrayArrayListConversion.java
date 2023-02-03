@@ -6,7 +6,11 @@ import java.util.Arrays;
 public class ArrayArrayListConversion {
     public static void main(String[] args) {
         String[] arr = {"A", "B", "C", "D", "E"};
+
+
         ArrayList<String> list = new ArrayList<>(Arrays.asList(arr));
+
+        String[] change= list.toArray(new String[0]);
         System.out.println(list);
 
         System.out.println("---------------------------");

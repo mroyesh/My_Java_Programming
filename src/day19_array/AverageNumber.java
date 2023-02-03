@@ -35,27 +35,19 @@ public class AverageNumber {
 
         System.out.println("how many number do you want to add");
         int total= input.nextInt();
-        int[] numbers= new int[total];
+        int [] numbers= new int[total];
         int sum=0;
-        for (int i = 0; i < total; i++) {
+        for (int i=0; i<total;i++) {
             System.out.println("enter the numbers");
             numbers[i]=input.nextInt();
             sum+=numbers[i];
         }
         System.out.println(sum);
-
         double average= sum/(double)total;
         System.out.println(average);
 
-
-
-
     }
 }
-
-
-
-
 /*
 .               1. Ask the user how many numbers they want to enter
 	            2. get all the inputs from the user and store them into an array

@@ -9,17 +9,21 @@ public class MargeTwoArrays {
         int[]arr1= {1,2,3,4};
         int[]arr2= {5,6,7};
 
-       /* int[]ar1= Arrays.copyOf(arr1, arr1.length+arr2.length);
-
-        for (int i = 0,j=0 ;i < arr2.length; i++,j++) {
-            ar1[j]=arr2[i];
-            System.out.println(Arrays.toString(ar1));
-        }*/
-        int []result= new int[arr1.length+arr2.length];//
+//        int[]ar1= Arrays.copyOf(arr1, arr1.length+arr2.length);
+//
+//        for (int i = 0,j=0 ;i < arr2.length; i++,j++) {
+//            ar1[j]=arr2[i];
+//            System.out.println(Arrays.toString(ar1));
+//
+        int [] result= new int[arr1.length+arr2.length];//  length of both arrays
+        System.out.println(Arrays.toString(result));
         int k=0;// for third arrays index number
         for (int i = 0; i < arr1.length; i++,k++) {
             result[k]=arr1[i];
+
         }
+        System.out.println(Arrays.toString(result));
+
         for (int i = 0; i < arr2.length; i++,k++) {
             result[k]=arr2[i];
         }

@@ -22,6 +22,7 @@ public class Person {
                 ", age=" + age +
                 ", gender=" + gender +
                 ", dateOfBirth=" + dateOfBirth +
+
                 '}';
     }
 }

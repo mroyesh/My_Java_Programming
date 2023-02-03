@@ -31,6 +31,9 @@ public class StringIntro {
         String t2= new String("Python");
         System.out.println(t2);
 
+        System.out.println("This is the end of our semester");
+
+
 
 
     }

@@ -16,9 +16,9 @@ public class MultiBranchIf {
         System.out.println("result");*/
         System.out.println("-------------");
         String result2 = "";
-        if (num > 0) {
+        if(num > 0) {
             result2 =" positive";
-        } else if (num < 0) {
+        } else if (num < 0){
                 result2 = "negative";
         }else{
             result2 = "Zero";

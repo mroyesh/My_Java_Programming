@@ -10,5 +10,6 @@ public class NetIncomeCal {
             taxRate=0.35;
 
         }
+        System.out.println("Tax rate: = "+taxRate );
     }
 }

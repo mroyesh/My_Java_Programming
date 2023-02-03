@@ -2,11 +2,11 @@ package day07_ifStatement;
 
 public class MonthName {
     public static void main(String[] args) {
-        int n1 = 9;
+        int n1 = 1;
         String Month = "";
         if (n1 >= 1 && n1 <= 12) {
             if (n1 == 1){
-                System.out.println("january");
+                System.out.println("January");
             } else if (n1 == 2){
                 System.out.println("Feb ");
             } else if (n1 == 3) {

@@ -2,11 +2,9 @@ package day18_garbageCollection.PracticeTasks;
 
 public class ContactObjectTest {
     public static void main(String[] args) {
-        Contact person1 = new Contact();
-        person1.setInfo("Ali", "6291233211","ali_attest@gmail.com");
+        Contact person1 = new Contact("Ali", "98789990", "ali@gmail.com" );
 
         System.out.println(person1);
-
 
         System.out.println("---------------------------------------------------------------");
 

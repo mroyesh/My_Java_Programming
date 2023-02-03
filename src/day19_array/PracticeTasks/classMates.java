@@ -8,21 +8,12 @@ public class classMates {
     public static void main(String[] args) {
 
 
-
-
-
-
-
-
             int[] num = {10, 0, 5, 0, 1, 0};
             Arrays.sort(num);
             for (int i = num.length - 1; i >= 0; i--) {
             }
             int[] result1 = ArraysUtility.reverse(num);
             System.out.println(Arrays.toString(result1));
-
-
-
 
         /*write a program that can move all the zeros to the end of the array
         Ex:

@@ -20,7 +20,9 @@ public class CollectionPractice {
         System.out.println(lists);
 
         //10
+        System.out.println("---------8**************");
         System.out.println(lists.get(1).get(3));
+        System.out.println("''''''''''''''''''''''''''''");
 
         for(List<Integer> eachList  : lists){
             for (Integer eachElement : eachList) {
@@ -37,7 +39,7 @@ public class CollectionPractice {
         listOfSets.add(new LinkedHashSet<>());  // 2
         listOfSets.add(new LinkedHashSet<>());  // 3
 
-        System.out.println(listOfSets);
+        System.out.println("This is list of seats: "+listOfSets);
 
         // {10, 5, 20}
 

@@ -19,7 +19,11 @@ public class arraysIntro {
         }
 
         System.out.println(scores[scores.length-1]);// this is the last index of Arrays.
+
+        System.out.println("---------------");
         System.out.println(scores.length);
+
+        System.out.println("----------------");
         System.out.println(scores.length-1);
         System.out.println(scores[4]);
         System.out.println(scores[0]);

@@ -8,7 +8,7 @@ public class singleIfStatementPractice {
             System.out.println("Even number");
         }
         if ( !isEven ) {
-            System.out.println("Is Odd number");
+            System.out.println("Is odd number");
         }
 
     }

@@ -1,6 +1,6 @@
 package day14_forLoop.PracticeTasts;
 
-public class SumOfdigitsFromString {
+public class SumOfDigitsFromString {
     public static void main(String[] args) {
         String input= "CH1245INA";
         int sumdigits=0;

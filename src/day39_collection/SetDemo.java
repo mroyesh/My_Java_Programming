@@ -15,7 +15,6 @@ public class SetDemo {
 
         System.out.println("-----------------------------------------");
 
-
         Set<Integer> set1 = new HashSet<>();// order is random, accepts null key
 
         set1.addAll(Arrays.asList(10, 20, 30, 40, 50));
@@ -86,3 +85,5 @@ public class SetDemo {
 
     }
 }
+
+

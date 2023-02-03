@@ -11,10 +11,10 @@ public class Offer {
     private boolean isFullTime;
 
 
-    public void setInfo(String location, String companyName, String jobTitle,
+    public void setInfo( String companyName, String jobTitle,
                  double salary, boolean hasBenefit, boolean hasPTO, boolean isWFH,
                  boolean isFullTime) {
-        this.location = location;
+        location = "San Diego";
         this.companyName = companyName;
         this.jobTitle = jobTitle;
         this.salary = salary;

@@ -5,6 +5,9 @@ public class StringMethod1 {
 
         String str="happy new Tuesday";
         char ind = str.charAt(4);
+
+        char type= str.charAt(7);
+     System.out.println("the last char is "  + type );
         System.out.println(ind);
 
 

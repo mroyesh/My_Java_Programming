@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class ArraysPractice1 {
     public static void main(String[] args) {
-        String[]students= new String[5];
-        students[0]="Gulches";
+        String[] students= new String[5];
+        students[0]="Gulchen";
         students[4]="Asil";
         students[2]="Summa";
         students[students.length-2]="Ali";;

@@ -14,8 +14,6 @@ public class ArraysUtility {
             result[k] = arr2[i];
         }
         return result;
-
-
     }
 
     public static double[] merge(double[] arr1, double[] arr2) {
@@ -63,7 +61,6 @@ public class ArraysUtility {
         }
         return reverse;
     }
-
     public static double[] reverse(double[] array) {
         double[] reverse = new double[array.length];
         int j = 0;

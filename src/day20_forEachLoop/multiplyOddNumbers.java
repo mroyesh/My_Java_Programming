@@ -13,15 +13,13 @@ public class multiplyOddNumbers {
             }
         }
         System.out.println(Arrays.toString(num1));
-
-
-        for (int i = 0; i < num1.length; i++) {
-            if ( num1[i] % 2 == 0 ) {
-                continue;
-            }
-            num1[i] = num1[i] * 2;
-        }
-        System.out.println(Arrays.toString(num1));
+//        for (int i = 0; i < num1.length; i++) {
+//            if ( num1[i] % 2 == 0 ) {
+//                continue;
+//            }
+//            num1[i] = num1[i] * 2;
+//        }
+//        System.out.println(Arrays.toString(num1));
     }
 }
 

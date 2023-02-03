@@ -15,5 +15,10 @@ public class Elevator {
             result = "invalid floor plan";
         }
         System.out.println(result);
+
+        
+
+
+
     }
 }

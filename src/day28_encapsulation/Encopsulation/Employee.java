@@ -6,14 +6,11 @@ public class Employee {
     private String jobTitle;
     private int age;
 
-
     public Employee(String name, double salary, String jobTitle, int age) {
-        setName(name);
-        setAge(age);
+      setName(name);
         setSalary(salary);
         setJobTitle(jobTitle);
-
-
+        setAge(age);
     }
 
     public String getJobTitle() {

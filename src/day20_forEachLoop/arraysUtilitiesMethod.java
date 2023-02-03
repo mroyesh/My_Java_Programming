@@ -9,11 +9,15 @@ public class arraysUtilitiesMethod {
         System.out.println(Arrays.toString(score));
 
 
-        int[] a1 = {1, 2, 3, 4, 5};
+        int[] a1 = {1, 2, 3, 5, 4};
         int[] a2 = {1, 2, 3, 4, 5};
+        Arrays.sort(a1);
+        Arrays.sort(a2);
         //boolean r1 = Arrays.equals(a1, a2);
 
-        System.out.println(Arrays.equals(a1, a2));
+        System.out.println("---------------------");
+
+        System.out.println(Arrays.equals(a1, a2));//  return boolean
 
 
         System.out.println("-------------------");
@@ -23,7 +27,7 @@ public class arraysUtilitiesMethod {
 
         Arrays.sort(ch2);
 
-        boolean result= Arrays.equals(ch1,ch2);
+        boolean result = Arrays.equals(ch1, ch2);
         System.out.println(result);
 
 
@@ -33,7 +37,9 @@ public class arraysUtilitiesMethod {
         System.out.println(Arrays.toString(nums));
         Arrays.sort(nums);
         System.out.println(Arrays.toString(nums));
+
         System.out.println("Minimum Number: " + nums[0]);
+
         System.out.println("Max number: " + nums[nums.length - 1]);
 
         System.out.println("--------------------------");
@@ -55,7 +61,7 @@ public class arraysUtilitiesMethod {
         System.out.println("-----------------");
 
         int[] score1 = {30, 40, 50, 60, 70};
-        int[] score2= Arrays.copyOf(score1, 6 );
+        int[] score2 = Arrays.copyOf(score1, 6);
         System.out.println(Arrays.toString(score2));
 
         System.out.println("------------------------");
@@ -63,21 +69,20 @@ public class arraysUtilitiesMethod {
         int[] n1 = {1, 2, 3, 4, 5, 6};
         int[] n2 = {7, 8, 9, 10};
         int[] n3 = Arrays.copyOf(n1, n1.length + n2.length);
-        for (int i = 0,j=n1.length; i < 0; i++,j++) {
-            n3[j]=n2[i];
-
+        for (int i = 0, j = n1.length; i < 0; i++, j++) {
+            n3[j] = n2[i];
         }
         System.out.println(Arrays.toString(n3));
 
-
         System.out.println("-----------------------------");
-        char[] ch= {'A', 'B', 'C', 'D', 'E', 'F','G'};
+        char[] ch = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
 
-        char []result2= Arrays.copyOf(ch, 20);
+        char[] result2 = Arrays.copyOf(ch, 20);
         System.out.println(Arrays.toString(result2));
 
-        Arrays.copyOfRange(ch, 3, 6);
-        System.out.println(result2);
+        char[] ch3= Arrays.copyOfRange(ch, 3, 6);
+        System.out.println(Arrays.toString(result2));
+        System.out.println(Arrays.toString(ch3));
 
 
     }

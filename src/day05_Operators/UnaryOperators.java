@@ -10,10 +10,7 @@ public class UnaryOperators {
         System.out.println(++x);
 
         System.out.println("-----------------------------");
-
-
         int y = 12;
-
         System.out.println(y++);
         System.out.println(y--);
         System.out.println(y);
@@ -21,6 +18,7 @@ public class UnaryOperators {
        // System.out.println("------------------------");
         int a = 30;
         int b = a++; // m = 30, n --> 31
+
         System.out.println("b = " + a);
         System.out.println("b = " + b);
         System.out.println(a);

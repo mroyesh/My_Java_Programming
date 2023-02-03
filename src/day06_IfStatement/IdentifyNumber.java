@@ -10,7 +10,5 @@ public class IdentifyNumber {
         System.out.println( number+ " Is positive number: " + isPositive);
         System.out.println(number + " Is negative number: " + isNegative);
         System.out.println( number+ " Is Zero = " + isZero);
-
-
     }
 }

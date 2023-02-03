@@ -299,7 +299,7 @@ public class Tasks {
             warningMsg="Start to head back";
         }
         if(gasLevel>=50 && gasLevel<60){
-            warningMsg="Be careful now you at at 50%";
+            warningMsg="Be careful now you are at 50%";
         }
         System.out.println(warningMsg);
 
@@ -307,7 +307,9 @@ public class Tasks {
 }
 /*
 
-8. Create a class named OxygenTank. You are diving in the ocean. Your oxygen tank has a certain level (number) and you must print a message based on the level:
+8. Create a class named OxygenTank. You are diving in the ocean. Your oxygen tank has a
+ certain level (number) and you must print a message based on the level:
+
                 Above 90 -  Your tank is full
                 Above 80 -  Still okay
                 Above 70 -  Don't go too far

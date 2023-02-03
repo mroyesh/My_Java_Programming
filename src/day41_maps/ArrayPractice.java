@@ -15,7 +15,7 @@ public class ArrayPractice {
         list3.addAll(Arrays.asList(10, 11, 12, 13, 14));
 
 
-        List<Integer>[] arrayOfLists = new List[3];
+        List<Integer> [] arrayOfLists=new List[5];
 
         arrayOfLists[0] = list1;
         arrayOfLists[1] = list2;
@@ -23,12 +23,13 @@ public class ArrayPractice {
 
         System.out.println(Arrays.toString(arrayOfLists));
 
-        arrayOfLists[0].set(4, 50);
+
 
         System.out.println(Arrays.toString(arrayOfLists));
 
 
         Set<Integer>[] arrayOfSets = new Set[5];
+
         arrayOfSets[0] = new LinkedHashSet<>();
         arrayOfSets[1] = new LinkedHashSet<>();
         arrayOfSets[2] = new LinkedHashSet<>();

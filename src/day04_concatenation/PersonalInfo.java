@@ -9,7 +9,8 @@ public class PersonalInfo {
                 favorite_music = " rack",
                 favorite_Book = "Paulo Kolo",
                 favorite_TVShow = "The Walking Dead",
-                favorite_Color = "Blue";
+                favorite_Color = "Blue",
+                best_hubby= "Soccer";
         char gender = 'M';
         int age = 32;
         boolean isMarried = true,
@@ -25,6 +26,7 @@ public class PersonalInfo {
         System.out.println("age = " + age);
         System.out.println(is_Employed);
         System.out.println(gender);
+        System.out.println("Best hubby is "+ best_hubby);
 
 
 

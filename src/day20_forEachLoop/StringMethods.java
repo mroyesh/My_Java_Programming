@@ -12,8 +12,9 @@ public class StringMethods {
         //char [] reverse= new char[ch.length];
         //for (int i = ch.length - 1,j=0; i >= 0; i--,j++) {
             //reverse[j]= ch[i];
+        System.out.println(Arrays.toString(ch));
 
-        char[] reverse1= ArraysUtility.reverse(ch);
+        /*char[] reverse1= ArraysUtility.reverse(ch);
 
         System.out.println("This is the reverse "+Arrays.toString(reverse1));
 
@@ -60,6 +61,8 @@ public class StringMethods {
             reversedSentence += arr1[i] + " ";
         }
         System.out.println("This is our final result: "+reversedSentence);
+
+         */
 
     }
 
